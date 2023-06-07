@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .meu-elemento{
+            margin: auto;
+            height: 20em;
+            width: 15em;
+            background-color: coral;
+            
+        }
+        /* .meu-elemento:hover{
+            transition: background-color 0.3s ease;
+            animation: girar 2s linear alternate-reverse;
+        } */
+        .meu-elemento:hover{
+            transform: rotateY(45deg);
+        }
+        @keyframes girar {
+             0% { transform: scale(1.1); }
+            100% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="meu-elemento"></div>
+</body>
+</html>
